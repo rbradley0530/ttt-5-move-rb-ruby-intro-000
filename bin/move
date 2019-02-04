@@ -10,6 +10,8 @@ puts "Welcome to Tic Tac Toe!"
 
 puts "Where would you like to go?"
 
+puts "* Enter a number between 1 & 9"
+
 input = gets.strip
 
 index = input_to_index(input)
